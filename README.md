@@ -4,15 +4,19 @@
 
 \## 📌 Project Description
 
-This project compares two regression techniques:
+This project compares two important regression techniques:
 
-\- LASSO Regression (L1 Regularization)
+\- \*\*LASSO Regression (L1 Regularization)\*\*
 
-\- Ridge Regression (L2 Regularization)
+\- \*\*Ridge Regression (L2 Regularization)\*\*
 
 
 
-It demonstrates how both models perform on data and how they help in reducing overfitting.
+The models are implemented using:
+
+\- Subgradient Descent (LASSO)
+
+\- Gradient Descent (Ridge)
 
 
 
@@ -38,8 +42,6 @@ It demonstrates how both models perform on data and how they help in reducing ov
 
 \## 🚀 How to Run
 
-
-
 1\. Install dependencies:
 
 pip install -r requirements.txt
@@ -58,11 +60,15 @@ python main.py
 
 \## 📊 Output
 
-\- Mean Squared Error (MSE) for both models  
+LASSO Test MSE: 93.9106379786642  
 
-\- Number of zero coefficients (LASSO feature selection)  
+Ridge Test MSE: 728.8143847051731  
 
-\- Graphs showing loss convergence  
+
+
+Number of zero weights in LASSO: 0  
+
+Number of zero weights in Ridge: 0  
 
 
 
@@ -70,11 +76,73 @@ python main.py
 
 
 
-\## 🧠 Key Insight
+\## 📈 Graphs
 
-\- LASSO removes unnecessary features (some weights become zero)  
 
-\- Ridge reduces weight values but keeps all features  
+
+\### 🔹 LASSO Convergence
+
+!\[LASSO Graph](lasso.png)
+
+
+
+\### 🔹 Ridge Convergence
+
+!\[Ridge Graph](ridge.png)
+
+
+
+\---
+
+
+
+\## 🧠 Key Insights
+
+\- LASSO and Ridge help reduce overfitting  
+
+\- LASSO can perform feature selection (though no weights became zero here)  
+
+\- Ridge reduces weight magnitude but keeps all features  
+
+\- LASSO achieved \*\*lower MSE\*\* than Ridge in this case  
+
+
+
+\---
+
+
+
+\## 🎯 Applications
+
+\- Feature Selection  
+
+\- Machine Learning Model Optimization  
+
+\- Preventing Overfitting  
+
+
+
+\---
+
+
+
+\## 📁 Project Structure
+
+lasso-ridge-regression/
+
+│
+
+├── main.py
+
+├── README.md
+
+├── requirements.txt
+
+├── lasso.png
+
+├── ridge.png
+
+└── .gitignore
 
 
 
