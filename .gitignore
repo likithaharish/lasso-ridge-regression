@@ -1,13 +1,26 @@
-# Python cache
+# Python cache files
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-# Environment files
-.env
+# Virtual environment
+venv/
+env/
+.env/
 
-# OS files
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# System files
 desktop.ini
 .DS_Store
 
-# Jupyter Notebook checkpoints (if any)
-.ipynb_checkpoints/
+# Logs
+*.log
+
+# Temporary files
+*.tmp
