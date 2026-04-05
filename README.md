@@ -101,4 +101,9 @@ This project demonstrates the importance of regularization in regression models.
 
 ---
 
+## 👥 Team Members
 
+- Likitha H  
+- Keerthi KM   
+- Hima Sajeesh Kumar
+- Kaviya
