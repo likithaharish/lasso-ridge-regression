@@ -101,6 +101,4 @@ This project demonstrates the importance of regularization in regression models.
 
 ---
 
-## 👩‍💻 Author
 
-Likitha H
